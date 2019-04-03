@@ -37,7 +37,14 @@ So let's fly the Swarm!
 
 
 ---
+## Day 2: Apr 3 2019
 
+**Today's Progress**: Studying different NN topologies in a very "simple" way: [The mostly complete chart of Neural Networks, explained](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464). Also check [Neural Network Zoo Prequel: Cells and Layers](https://www.asimovinstitute.org/author/fjodorvanveen/) and [The Neural Network Zoo](http://www.asimovinstitute.org/neural-network-zoo/). 
+
+**Project's Progress**: Studying how to implement a pipeline from Python to FPV (Drone, Car) Simulators: [self-driving car simulator built with Unity](https://github.com/udacity/self-driving-car-sim), [APM Planner 2](http://ardupilot.org/planner2/docs/mac-install.html), [AirSim](https://microsoft.github.io/AirSim/). Also following this [How to Simulate a Self-Driving Car](https://www.youtube.com/watch?v=EaY5QiZwSP4)
+
+**Thoughts:** There is a war out there about who controls the market of simulators?
+ 
 ## Day 1: Apr 2 2019
 
 **Today's Progress**: Reading [Neural networks for sentiment analysis in AsterixDB](https://brage.bibsys.no/xmlui/handle/11250/2569391). Found this very interesting, with a simple explanation of types of NN, and how to implement a model using [AsterixDB](https://asterixdb.apache.org/)
