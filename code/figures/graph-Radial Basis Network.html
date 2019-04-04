@@ -1,0 +1,24 @@
+
+    <!DOCTYPE html>
+        <head>
+          <meta charset="utf-8">
+          <title>Dynamically changing force parameters</title>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+          <script src="http://d3js.org/d3.v5.min.js"></script>
+          <link href="../includes/d3/style.css" rel="stylesheet" type="text/css">            
+        </head>
+        <body>
+            <svg></svg>
+            <div id="main" role="main">
+              <div id="vis"></div>
+            </div>
+            <script>
+                var _nodes = [{"id": 1, "name": "node_1", "group": "Input Cell", "title": {"group": "Input Cell"}}, {"id": 2, "name": "node_2", "group": "Input Cell", "title": {"group": "Input Cell"}}, {"id": 3, "name": "node_3", "group": "Hidden Cell", "title": {"group": "Hidden Cell"}}, {"id": 4, "name": "node_4", "group": "Hidden Cell", "title": {"group": "Hidden Cell"}}, {"id": 5, "name": "node_5", "group": "Output Cell", "title": {"group": "Output Cell"}}];
+                var _edges = [{"source": 1, "target": 3, "value": ""}, {"source": 1, "target": 4, "value": ""}, {"source": 2, "target": 3, "value": ""}, {"source": 2, "target": 4, "value": ""}, {"source": 3, "target": 5, "value": ""}, {"source": 4, "target": 5, "value": ""}];
+                var physicskeeper = false;
+                var id = "2e0359d8-128e-4990-aa5e-ec99232ea7fd";
+            </script>
+            <script src="../includes/d3/netd3.js"></script>
+        </body>
+    </html>
+    
