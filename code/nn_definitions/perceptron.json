@@ -1,0 +1,43 @@
+{
+    "graphs": {
+        "edges": [
+            {
+                "relation": "direct",
+                "source": 1,
+                "target": 3
+            },
+            {
+                "relation": "direct",
+                "source": 2,
+                "target": 3
+            }
+        ],
+        "label": "Perceptron",
+        "nodes": [
+            {
+                "id": 1,
+                "label": "node_1",
+                "metadata": {
+                    "group": "Input Cell"
+                }
+            },
+            {
+                "id": 2,
+                "label": "node_2",
+                "metadata": {
+                    "group": "Input Cell"
+                }
+            },
+            {
+                "id": 3,
+                "label": "node_3",
+                "metadata": {
+                    "group": "Output Cell"
+                }
+            }            
+        ],
+        "type": "Neural Network"
+    },
+    "version": 1,
+    "warnings": []
+}

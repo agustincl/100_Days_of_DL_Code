@@ -1,0 +1,45 @@
+* {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* Force Directed Graph */
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.arcs  {
+  stroke: #999;
+  stroke-opacity: .6;
+  fill: none;
+}
+
+/* Range Controls */
+.control {
+	border: 1px solid #ccc;
+	padding: 0.25em;
+	margin: 0.5em 0;
+	display: inline-block;
+}
+.control>* {
+	vertical-align: middle;
+}
+.control input {
+	margin: 0 1em;
+	display: inline-block;
+}
+.control .value {
+	display: inline-block;
+	min-width: 2em;
+	text-align: right;
+}
+
+path.link {
+      fill: none;
+      stroke: #666;
+      stroke-width: 1.5px;
+    }
